@@ -1,0 +1,25 @@
+{
+  "name": "overlay",
+  "repo": "heatroom/overlay",
+  "description": "Overlay UI component",
+  "version": "0.0.1",
+  "keywords": [
+    "overlay",
+    "ui"
+  ],
+  "dependencies": {
+    "component/emitter": "1.0.0",
+    "component/jquery": "*",
+    "component/bind": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "overlay.css"
+  ]
+}
