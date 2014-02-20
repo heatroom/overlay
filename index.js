@@ -6,6 +6,7 @@
 var Emitter = require('emitter');
 var $ = require('jquery');
 var bind = require('bind');
+var html = require('./template');
 
 /**
  * Expose `overlay()`.
@@ -50,7 +51,7 @@ function Overlay(options) {
   options = options || {};
   this.target = options.target || 'body';
   this.closable = options.closable;
-  this.el = $('<div class="overlay hide"></div>\n');
+  this.el = $(html);
   this.el.appendTo(this.target);
   if (this.closable) this.el.on('click', bind(this, this.hide));
 }
