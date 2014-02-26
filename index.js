@@ -48,7 +48,7 @@ function overlay(options){
  */
 
 function Overlay(options) {
-  Emitter.call(this);
+  emitter.call(this);
   options = options || {};
   this.target = options.target || 'body';
   this.closable = options.closable;
