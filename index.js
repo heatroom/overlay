@@ -3,9 +3,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter');
+var emitter = require('emitter');
 var $ = require('jquery');
 var bind = require('bind');
+var classes = require('classes');
 var html = require('./template');
 
 /**
@@ -60,8 +61,8 @@ function Overlay(options) {
  * Mixin emitter.
  */
 
-Emitter(Overlay.prototype);
-
+emitter(Overlay.prototype);
+classes(Overlay.prototype);
 /**
  * Show the overlay.
  *
