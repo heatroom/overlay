@@ -8,10 +8,15 @@
     "ui"
   ],
   "dependencies": {
-    "component/emitter": "1.0.0",
-    "component/jquery": "*",
+    "component/domify": "*",
+    "component/emitter": "*",
+    "component/event": "*",
     "component/bind": "*",
-    "heatroom/classes": "*"
+    "heatroom/classes": "*",
+    "ianstormtaylor/redraw": "*",
+    "segmentio/bind-all": "*",
+    "segmentio/on-escape": "*",
+    "yields/after-transition": "*"
   },
   "development": {},
   "license": "MIT",
