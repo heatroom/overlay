@@ -10,7 +10,8 @@
   "dependencies": {
     "component/emitter": "1.0.0",
     "component/jquery": "*",
-    "component/bind": "*"
+    "component/bind": "*",
+    "component/classes"
   },
   "development": {},
   "license": "MIT",
